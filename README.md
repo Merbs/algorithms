@@ -12,6 +12,12 @@ Fun programming puzzles and my algorithmic solutions
  - [4, 5, -12, 9] should return [9]
  - [3, 4, -11, 2, 5] should return [3, 4]
 
+- **Maximum Subarray Difference**  
+  Given an array, find two disjoint contiguous subarrays such that the
+  difference between their sums is a maximum.
+ - [4, 3, -1, -4, 1, -5, 8, 4, -2, 3, -1] should return 22
+ - [-1, 3, 2, 5, 2, -5, 1, -4, -3, -1, 2] should return 24
+
 - **Pots of Gold**  
   Given an array of numbers (pots of gold in a line), two players alternate
   turns choosing from one of the two ends. Whoever gets the larger sum wins.
