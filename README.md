@@ -59,11 +59,16 @@ arrays (in the specified order) to Node(element, left_subtree, right_subtree).
   - (preorder) [2, [3, [4, 5, None], 6], [7, 8, 9]] should return [2, [7, 9, 8], [3, 6, [4, None, 5]]]
   - (preorder) ['A', ['B', ['C', 'D', None], None], None] should return ['A', None, ['B', None, ['C', None, 'D']]]
 
-***Linked Lists***
+***Linked Lists***  
 - Reverse a linked list
   - (A -> B -> C -> None) should returns (C -> B -> A -> None)
 
-***Strings***
+***Strings***  
 - Reverse the words in a string
   - "hello world" should return "world hello"
   - "these words reversed" should return "reversed words these"
+
+***Sorting Algorithms***  
+ - Mergesort
+ - Quicksort
+ - In-Place Quicksort
