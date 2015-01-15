@@ -33,6 +33,12 @@ Fun programming puzzles and my algorithmic solutions
  - [1, 2, 3, 4, 5] should return [5, 4, 3, 2, 1]
  - [1, 2, 3, 4] should return [4, 3, 2, 1]
 
+***Sorted Arrays***  
+- **Symmetric Difference**  
+  Given two sorted lists, return a list of elements not in the intersection
+ - A = [1, 2, 3, 4], B = [1, 3, 5] => [2, 4, 5]
+ - A = [2, 3], B = [1, 3, 3, 3, 3] => [1, 2]
+
 ***Trees***  
 Although the below inputs are arrays, assume we have functions that convert the
 arrays (in the specified order) to Node(element, left_subtree, right_subtree).
