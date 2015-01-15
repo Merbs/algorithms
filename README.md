@@ -94,6 +94,11 @@ arrays (in the specified order) to Node(element, left_subtree, right_subtree).
   longest palindromes, find the one which starts at the earliest index.
   - "xyabcdeedcbaz" should return "abcdeedcba"
   - "xyabcbazdefedw" should return "abcba"
+- **First Nonrepeated Character**
+  Given a UTF-8 string, find the first nonrepeated character.
+  If no characters are nonrepeated, return None.
+  - "abcdefabde" should return "c"
+  - "abcabc" should return *None*
 
 ### Sorting
  - Quicksort
