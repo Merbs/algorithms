@@ -64,6 +64,14 @@ arrays (in the specified order) to Node(element, left_subtree, right_subtree).
 ### Linked Lists
 - **Linked List Reversal**
   - (A -> B -> C -> None) should returns (C -> B -> A -> None)
+- **Maximum Sum Path**
+  - Given two sorted linked lists, construct the linked list with the maximum
+  sum path. The path must start at the beginning of one of the two linked lists
+  and may only crossover when the value of the two linked lists is the same.
+  Only constant extra space may be used. If there are multiple maximum sum
+  paths, return the path that has the lowest number at the divergence.
+  - A = [1, 5, 6, 9], B = [2, 3, 6, 7, 8] should return [1, 5, 6, 7, 8]
+  - A = [2, 4, 6], B = [1, 3, 5] should return [2, 4, 6]
 
 ### Strings
 - **Reverse the Words**
