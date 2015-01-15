@@ -20,7 +20,7 @@ is_binary_search_tree = (node, minimum, maximum) ->
           is_binary_search_tree(node.left, minimum, node.el) and
           is_binary_search_tree(node.right, node.el, maximum))
 
-# These binary tree are in preorder: [left_subtree, node_element, right_subtree]
+# These binary tree are in inorder: [left_subtree, node_element, right_subtree]
 # so that it is easy for a human to verify whether it is or is not a valid BST.
 test_cases = [
   [[[[2, 4, 5], 9, 10], 12, [null, 15, 17]], true],
