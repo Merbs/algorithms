@@ -1,14 +1,6 @@
 # algorithms
 Fun programming puzzles and my algorithmic solutions  
 
-**Table of Contents**   
-- [Arrays](#)
-- [Sorted Arrays](#)
-- [Trees (Recursion)](#)
-- [Linked Lists](#)
-- [Strings](#)
-- [Sorting](#)
-
 ### Arrays
 
 - **Maximum Subarray Problem**  
