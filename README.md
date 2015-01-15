@@ -67,13 +67,19 @@ arrays (in the specified order) to Node(element, left_subtree, right_subtree).
 - Reverse the words in a string
   - "hello world" should return "world hello"
   - "these words reversed" should return "reversed words these"
-- **Matching Delimiters**
+- **Matching Delimiters**  
   Given a string, determine if the delimiters (), {}, [] are matching and valid.
   That is, there are equal numbers of opening/closing delimiters and for each
-  closing delimiter, it should match the most recent unmatched opening delimiter
+  closing delimiter, it should match the most recent unmatched opening delimiter.
   - "(this[is{true}])" should return *True*
   - "([)]" should return *False*
   - "(this[is]false" should return *False*
+- **Valid Interleaving**  
+  Given strings A, B, and C, determine if C is an valid interleaving of A and B.
+  A valid interleaving is one where each character in C from A is in the same order
+  as it was in A, and each character in C from B is in the same order as it was in B.
+  - A = 'abcd', B = 'efgh', C = 'aefbgchd' should return *True*
+  - A = 'abc', B = 'abd', C = 'abcdab' should return *False*
 
 ***Sorting Algorithms***  
  - Mergesort
