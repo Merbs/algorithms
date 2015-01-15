@@ -80,7 +80,10 @@ arrays (in the specified order) to Node(element, left_subtree, right_subtree).
   as it was in A, and each character in C from B is in the same order as it was in B.
   - A = 'abcd', B = 'efgh', C = 'aefbgchd' should return *True*
   - A = 'abc', B = 'abd', C = 'abcdab' should return *False*
-
+- **Duplicate Characters**  
+  Given a UTF-8 string (or just a string with letters and numbers), find the most frequent character. If there is a tie, return the character that appears first in the string.
+  - "abcdae' should return "a"
+  - "a2a2b3" should return "a"
 ***Sorting Algorithms***  
  - Mergesort
  - Quicksort
