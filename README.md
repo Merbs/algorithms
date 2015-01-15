@@ -20,6 +20,12 @@ Fun programming puzzles and my algorithmic solutions
  - [4, 3, -1, -4, 1, -5, 8, 4, -2, 3, -1] should return 22
  - [-1, 3, 2, 5, 2, -5, 1, -4, -3, -1, 2] should return 24
 
+- **Longest Increasing Subsequence**
+  Given a sequence of numbers, find the longest subsequence with strictly
+  increasing numbers.
+ - [10, 1, 3, 9, 2, 7, 5, 6] returns length 4 ([1, 2, 5, 6] or [1, 3, 5, 6])
+ - [5, 4, 3, 2, 1] returns length 1 ([1] or [2] or [3] or [4] or [5])
+
 - **Pots of Gold**  
   Given an array of numbers (pots of gold in a line), two players alternate
   turns choosing from one of the two ends. Whoever gets the larger sum wins.
