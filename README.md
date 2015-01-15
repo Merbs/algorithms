@@ -67,6 +67,13 @@ arrays (in the specified order) to Node(element, left_subtree, right_subtree).
 - Reverse the words in a string
   - "hello world" should return "world hello"
   - "these words reversed" should return "reversed words these"
+- **Matching Delimiters**
+  Given a string, determine if the delimiters (), {}, [] are matching and valid.
+  That is, there are equal numbers of opening/closing delimiters and for each
+  closing delimiter, it should match the most recent unmatched opening delimiter
+  - "(this[is{true}])" should return *True*
+  - "([)]" should return *False*
+  - "(this[is]false" should return *False*
 
 ***Sorting Algorithms***  
  - Mergesort
