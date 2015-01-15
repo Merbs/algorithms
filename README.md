@@ -60,11 +60,11 @@ arrays (in the specified order) to Node(element, left_subtree, right_subtree).
   - (preorder) ['A', ['B', ['C', 'D', None], None], None] should return ['A', None, ['B', None, ['C', None, 'D']]]
 
 ***Linked Lists***  
-- Reverse a linked list
+- **Linked List Reversal**
   - (A -> B -> C -> None) should returns (C -> B -> A -> None)
 
 ***Strings***  
-- Reverse the words in a string
+- **Reverse the Words**
   - "hello world" should return "world hello"
   - "these words reversed" should return "reversed words these"
 - **Matching Delimiters**  
@@ -84,6 +84,7 @@ arrays (in the specified order) to Node(element, left_subtree, right_subtree).
   Given a UTF-8 string (or just a string with letters and numbers), find the most frequent character. If there is a tie, return the character that appears first in the string.
   - "abcdae' should return "a"
   - "a2a2b3" should return "a"
+
 ***Sorting Algorithms***  
  - Mergesort
  - Quicksort
