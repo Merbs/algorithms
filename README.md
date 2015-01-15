@@ -1,7 +1,7 @@
 # algorithms
 Fun programming puzzles and my algorithmic solutions  
 
-***Arrays***  
+### Arrays
 
 - **Maximum Subarray Problem**  
   Given an array of numbers, find the contiguous subarray with the largest sum.
@@ -39,13 +39,13 @@ Fun programming puzzles and my algorithmic solutions
  - [1, 2, 3, 4, 5] should return [5, 4, 3, 2, 1]
  - [1, 2, 3, 4] should return [4, 3, 2, 1]
 
-***Sorted Arrays***  
+### Sorted Arrays  
 - **Symmetric Difference**  
   Given two sorted lists, return a list of elements not in the intersection
  - A = [1, 2, 3, 4], B = [1, 3, 5] => [2, 4, 5]
  - A = [2, 3], B = [1, 3, 3, 3, 3] => [1, 2]
 
-***Trees***  
+### Trees (Recursion)
 Although the below inputs are arrays, assume we have functions that convert the
 arrays (in the specified order) to Node(element, left_subtree, right_subtree).
 - **Binary Search Trees (BST)**  
@@ -59,11 +59,11 @@ arrays (in the specified order) to Node(element, left_subtree, right_subtree).
   - (preorder) [2, [3, [4, 5, None], 6], [7, 8, 9]] should return [2, [7, 9, 8], [3, 6, [4, None, 5]]]
   - (preorder) ['A', ['B', ['C', 'D', None], None], None] should return ['A', None, ['B', None, ['C', None, 'D']]]
 
-***Linked Lists***  
+### Linked Lists  
 - **Linked List Reversal**
   - (A -> B -> C -> None) should returns (C -> B -> A -> None)
 
-***Strings***  
+### Strings  
 - **Reverse the Words**
   - "hello world" should return "world hello"
   - "these words reversed" should return "reversed words these"
@@ -85,7 +85,8 @@ arrays (in the specified order) to Node(element, left_subtree, right_subtree).
   - "abcdae' should return "a"
   - "a2a2b3" should return "a"
 
-***Sorting Algorithms***  
- - Mergesort
+### Sorting  
  - Quicksort
  - In-Place Quicksort
+ - Merge sort
+ - Bucket Sort
