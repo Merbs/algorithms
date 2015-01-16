@@ -45,10 +45,16 @@ Fun programming puzzles and my algorithmic solutions
  - [1, 2, 3] => [1, 2, 3]
 
 ### Sorted Arrays
+- **Merge Two Sorted Arrays**  
+  - A = [1, 2, 4, 6], B = [2, 3, 5] => [1, 2, 2, 3, 4, 5, 6]
+  - A = [1, 1, 2, 4], B = [3, 5, 6] => [1, 1, 2, 3, 4, 5, 6]
+- **Merge K Sorted Arrays** (in nk log(k) time)  
+  - [1, 2, 3], [4, 5, 6], [2, 7] => [1, 2, 2, 3, 4, 5, 6, 7]
+  - [2, 4], [1, 3, 5, 7], [6, 9], [8] => [1, 2, 3, 4, 5, 6, 7, 8, 9]
 - **Symmetric Difference**  
   Given two sorted lists, return a list of elements not in the intersection
- - A = [1, 2, 3, 4], B = [1, 3, 5] => [2, 4, 5]
- - A = [2, 3], B = [1, 3, 3, 3, 3] => [1, 2]
+  - A = [1, 2, 3, 4], B = [1, 3, 5] => [2, 4, 5]
+  - A = [2, 3], B = [1, 3, 3, 3, 3] => [1, 2]
 
 ### Trees (Recursion)
 Although the below inputs are arrays, assume we have functions that convert the
