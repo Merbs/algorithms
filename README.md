@@ -39,6 +39,11 @@ Fun programming puzzles and my algorithmic solutions
  - [1, 2, 3, 4, 5] should return [5, 4, 3, 2, 1]
  - [1, 2, 3, 4] should return [4, 3, 2, 1]
 
+- **Move Zeros to End**  
+  Given an array of numbers, move all the zeros to the end, using constant space
+ - [1, 2, 0, 3, 0, 0, 4, 5, 0] => [1, 2, 3, 4, 5, 0, 0, 0, 0]
+ - [1, 2, 3] => [1, 2, 3]
+
 ### Sorted Arrays
 - **Symmetric Difference**  
   Given two sorted lists, return a list of elements not in the intersection
