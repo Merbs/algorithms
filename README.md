@@ -75,6 +75,11 @@ arrays (in the specified order) to Node(element, left_subtree, right_subtree).
 ### Linked Lists
 - **Linked List Reversal**  
   - (A -> B -> C -> None) should returns (C -> B -> A -> None)
+- **Cyclic Linked List**  
+  Determine if the given linked list contains a cycle (loops back to a node that
+  was present earlier in the linked list).
+  - A -> B -> C -> (loop back to B)  =>  True
+  - A -> B -> C -> None  => False
 - **Maximum Sum Path**  
   Given two sorted linked lists, construct the linked list with the maximum
   sum path. The path must start at the beginning of one of the two linked lists
