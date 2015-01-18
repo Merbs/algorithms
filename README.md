@@ -51,6 +51,10 @@ Fun programming puzzles and my algorithmic solutions
 - **Merge K Sorted Arrays** (in nk log(k) time)  
   - [1, 2, 3], [4, 5, 6], [2, 7] => [1, 2, 2, 3, 4, 5, 6, 7]
   - [2, 4], [1, 3, 5, 7], [6, 9], [8] => [1, 2, 3, 4, 5, 6, 7, 8, 9]
+- **Find the Median**  
+  Find the median of two sorted arrays of perhaps unequal lengths M and N.
+  - A = [3, 5, 7], B = [4, 6, 8, 10] => 6
+  - A = [1, 2, 3], B = [4, 5, 6] => 3.5 
 - **Symmetric Difference**  
   Given two sorted lists, return a list of elements not in the intersection
   - A = [1, 2, 3, 4], B = [1, 3, 5] => [2, 4, 5]
