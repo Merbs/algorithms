@@ -44,6 +44,11 @@ Fun programming puzzles and my algorithmic solutions
  - [1, 2, 0, 3, 0, 0, 4, 5, 0] => [1, 2, 3, 4, 5, 0, 0, 0, 0]
  - [1, 2, 3] => [1, 2, 3]
 
+- **Next Greater Number**  
+  Given an array, construct an array which, for every index in the original array,
+  has the next greatest number in the original array. If no greater number exists,
+  have that element be None/null.
+  - [4, 5, 7, 4, 2, 7, 9, 3, 5] => [5, 7, 9, 7, 7, 9, None, 5, None]
 ### Sorted Arrays
 - **Merge Two Sorted Arrays**  
   - A = [1, 2, 4, 6], B = [2, 3, 5] => [1, 2, 2, 3, 4, 5, 6]
