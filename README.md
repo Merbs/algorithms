@@ -1,6 +1,28 @@
 # algorithms
 Fun programming puzzles and my algorithmic solutions
 
+### Dynamic Programming
+
+- **Pots of Gold**  
+  Given an array of numbers (pots of gold in a line), two players alternate
+  turns choosing from one of the two ends. Whoever gets the larger sum wins.
+  Design an algorithm that plays optimally with the smallest time complexity.
+  Return the scores of the two players
+ - pots [9, 7, 5, 3, 1, 0, 2, 4, 6, 8] should return (25, 20)
+ - pots [1, 3, 4, 12, 5, 7] might return (22, 10)
+
+- **Longest Palindrome Substring**  
+  Find the longest substring which is a palindrome. If there are multiple
+  longest palindromes, find the one which starts at the earliest index.
+  - "xyabcdeedcbaz" should return "abcdeedcba"
+  - "xyabcbazdefedw" should return "abcba"
+
+- **Longest Increasing Subsequence**  
+  Given a sequence of numbers, find the longest subsequence with strictly
+  increasing numbers.
+ - [10, 1, 3, 9, 2, 7, 5, 6] returns length 4 ([1, 2, 5, 6] or [1, 3, 5, 6])
+ - [5, 4, 3, 2, 1] returns length 1 ([1] or [2] or [3] or [4] or [5])
+
 ### Arrays
 
 - **Maximum Subarray Problem**  
@@ -19,20 +41,6 @@ Fun programming puzzles and my algorithmic solutions
   difference between their sums is a maximum.
  - [4, 3, -1, -4, 1, -5, 8, 4, -2, 3, -1] should return 22
  - [-1, 3, 2, 5, 2, -5, 1, -4, -3, -1, 2] should return 24
-
-- **Longest Increasing Subsequence**  
-  Given a sequence of numbers, find the longest subsequence with strictly
-  increasing numbers.
- - [10, 1, 3, 9, 2, 7, 5, 6] returns length 4 ([1, 2, 5, 6] or [1, 3, 5, 6])
- - [5, 4, 3, 2, 1] returns length 1 ([1] or [2] or [3] or [4] or [5])
-
-- **Pots of Gold**  
-  Given an array of numbers (pots of gold in a line), two players alternate
-  turns choosing from one of the two ends. Whoever gets the larger sum wins.
-  Design an algorithm that plays optimally with the smallest time complexity.
-  Return the scores of the two players
- - pots [9, 7, 5, 3, 1, 0, 2, 4, 6, 8] should return (25, 20)
- - pots [1, 3, 4, 12, 5, 7] might return (22, 10)
 
 - **In-Place Array Reversal**  
   Given an array, reverse the elements using only constant space
@@ -122,11 +130,6 @@ arrays (in the specified order) to Node(element, left_subtree, right_subtree).
   first in the string.
   - "abcdae' should return "a"
   - "a2a2b3" should return "a"
-- **Longest Palindrome Substring**  
-  Find the longest substring which is a palindrome. If there are multiple
-  longest palindromes, find the one which starts at the earliest index.
-  - "xyabcdeedcbaz" should return "abcdeedcba"
-  - "xyabcbazdefedw" should return "abcba"
 - **First Nonrepeated Character**  
   Given a UTF-8 string, find the first nonrepeated character.
   If no characters are nonrepeated, return None.
