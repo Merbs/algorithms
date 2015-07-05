@@ -54,4 +54,35 @@ for test_case, isBST in test_cases:
     binary_tree = binary_tree_from_inorder_array(test_case)
     assert is_binary_search_tree(binary_tree) == isBST
 
+def kthSmallest(root, k):
+    num_smaller_nodes = num_nodes(root.left)
+    if num_smaller_nodes == k - 1:
+        return root.el
+    elif num_smaller_nodes < k - 1:
+        return kthSmallest(root.right, k - num_smaller_nodes - 1)
+    else:
+        return kthSmallest(root.left, k)
+        
+        
+def num_nodes(root):
+    if not root: return 0
+    return 1 + num_nodes(root.left) + num_nodes(root.right)
+
+test_cases = [
+    (([[[1, 2, 3], 4, 5], 6, [None, 7, 8]], 1), 1),
+    (([[[1, 2, 3], 4, 5], 6, [None, 7, 8]], 2), 2),
+    (([[[1, 2, 3], 4, 5], 6, [None, 7, 8]], 3), 3),
+    (([[[1, 2, 3], 4, 5], 6, [None, 7, 8]], 4), 4),
+    (([[[1, 2, 3], 4, 5], 6, [None, 7, 8]], 5), 5),
+    (([[[1, 2, 3], 4, 5], 6, [None, 7, 8]], 6), 6),
+    (([[[1, 2, 3], 4, 5], 6, [None, 7, 8]], 7), 7),
+]
+
+for test_case, ans in test_cases:
+    test_case, k = test_case
+    binary_tree = binary_tree_from_inorder_array(test_case)
+    print kthSmallest(binary_tree, k), k, ans
+    assert kthSmallest(binary_tree, k) == ans
+
+
 print 'All is Good'
