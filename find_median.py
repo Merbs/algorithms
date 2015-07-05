@@ -223,6 +223,8 @@ def find_median_of_two_unequal_sized_sorted_lists(A, B):
 
             lower = max(lower_A, lower_B)
             upper = min(upper_A, upper_B)
+            if lower > upper:
+                lower, upper = upper, lower
             if lower < lower_median_B:
                 if upper > upper_median_B:
                     return (lower_median_B + upper_median_B) / 2.0
@@ -240,6 +242,8 @@ def find_median_of_two_unequal_sized_sorted_lists(A, B):
 
             lower = max(lower_A, lower_B)
             upper = min(upper_A, upper_B)
+            if lower > upper:
+                lower, upper = upper, lower
             if median_B < lower:
                 return lower
             elif median_B > upper:
