@@ -84,7 +84,10 @@ test_cases = [
     (['ab', 'ac', 'aabc'], True),
     (['abc', 'abd', 'abcdab'], False),
     (['abad', 'ace', 'abacade'], True),
-    (['abad', 'ace', 'abacde'], False)
+    (['abad', 'ace', 'abacde'], False),
+
+    # How about a complicated duplicate?
+    (['aa', 'ab', 'aaba'], True)
 ]
 
 for test_case, ans in test_cases:
